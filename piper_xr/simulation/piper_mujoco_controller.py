@@ -1,0 +1,59 @@
+"""MujocoTeleopController 的 sim 侧日志子类：与真机写同一份 schema，便于 sim2real。"""
+
+from typing import Optional
+
+import numpy as np
+import meshcat.transformations as tf
+
+from xrobotoolkit_teleop.simulation.mujoco_teleop_controller import MujocoTeleopController
+
+from piper_xr.common.pose_mapping import CorrectedPoseMixin
+from piper_xr.common.teleop_logger import TeleopFrame, TeleopLogger
+
+
+class LoggingMujocoTeleopController(CorrectedPoseMixin, MujocoTeleopController):
+    def __init__(self, *args, log_path: Optional[str] = None, R_headset_world=None, **kwargs):
+        self._logger_path = log_path
+        self._logger: Optional[TeleopLogger] = None
+        if R_headset_world is not None:
+            kwargs["R_headset_world"] = R_headset_world
+        super().__init__(*args, **kwargs)
+        if self._logger_path:
+            self._logger = TeleopLogger(self._logger_path, "sim")
+
+    def _update_mocap_target(self):
+        for name, task in self.effector_task.items():
+            mocap_idx = self.target_mocap_idx.get(name)
+            if mocap_idx is None or mocap_idx == -1:
+                continue
+            if self.effector_control_mode[name] == "position":
+                # PositionTask has no orientation target; preserve the marker rotation.
+                self.mj_data.mocap_pos[mocap_idx] = task.target_world
+            else:
+                target = task.T_world_frame
+                self.mj_data.mocap_pos[mocap_idx] = target[:3, 3]
+                self.mj_data.mocap_quat[mocap_idx] = tf.quaternion_from_matrix(target)
+
+    def _send_command(self):
+        super()._send_command()
+        if self._logger is None:
+            return
+        import mujoco
+        cmd_j6 = np.array(self.placo_robot.state.q[7:13], dtype=float)
+        for name, config in self.manipulator_config.items():
+            link = config["link_name"]
+            prefix = "right_" if link.startswith("right_") else ("left_" if link.startswith("left_") else "")
+            ee_id = mujoco.mj_name2id(self.mj_model, mujoco.mjtObj.mjOBJ_BODY, link)
+            ee_xyz = self.mj_data.xpos[ee_id].copy()
+            ee_quat = self.mj_data.xquat[ee_id].copy()  # [w,x,y,z]
+            q6 = np.array([
+                self.mj_data.qpos[mujoco.mj_name2id(self.mj_model, mujoco.mjtObj.mjOBJ_JOINT, f"{prefix}joint{i}")]
+                for i in range(1, 7)
+            ], dtype=float)
+            gripper = 0.0
+            for v in self.gripper_pos_target.get(name, {}).values():
+                gripper = float(v) / 0.035  # 归一化到 [0..1]
+            self._logger.log(TeleopFrame(
+                backend="sim", hand=name, joint_pos=q6, gripper=gripper,
+                ee_xyz=ee_xyz, ee_quat=ee_quat, cmd_joint=cmd_j6, cmd_gripper=gripper,
+            ))

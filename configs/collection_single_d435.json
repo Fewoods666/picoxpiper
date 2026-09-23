@@ -1,0 +1,21 @@
+{
+  "eva_root": "~/EVA-CLIENT",
+  "realsense_root": "~/realsense_src",
+  "piper_python": "~/anaconda3/envs/pico_teleop/bin/python",
+  "output_dir": "work_dirs/collection/single_piper_d435",
+  "web_port": 8080,
+  "obs_endpoint": "tcp://127.0.0.1:5555",
+  "action_endpoint": "tcp://127.0.0.1:5556",
+  "rpc_endpoint": "tcp://127.0.0.1:5557",
+  "control_port": 5757,
+  "fps": 30,
+  "max_robot_skew_s": 0.06,
+  "image_skew_tolerance_s": 0.05,
+  "camera": {"serial": "", "width": 640, "height": 480},
+  "robot": {
+    "can": "can0", "hand": "right", "scale": 0.7,
+    "max_dq": 0.02, "speed": 20,
+    "gripper_open_m": 0.08, "gripper_effort": 1000
+  },
+  "tasks": {"pick_place": [["pick up the object and place it in the tray", -1]]}
+}
