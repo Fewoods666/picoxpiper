@@ -1,0 +1,3 @@
+/home/wtc/realsense_src/build/external-projects/json-download/CMakeFiles/nlohmann_json.dir
+/home/wtc/realsense_src/build/external-projects/json-download/CMakeFiles/edit_cache.dir
+/home/wtc/realsense_src/build/external-projects/json-download/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,14 @@
+# Target labels
+ libcurl
+# Source files and their labels
+/home/wtc/realsense_src/build/CMakeFiles/libcurl
+/home/wtc/realsense_src/build/CMakeFiles/libcurl.rule
+/home/wtc/realsense_src/build/CMakeFiles/libcurl-complete.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-build.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-configure.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-download.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-install.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-mkdir.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-patch.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-test.rule
+/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-update.rule

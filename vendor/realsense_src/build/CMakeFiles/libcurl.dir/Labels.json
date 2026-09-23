@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/wtc/realsense_src/build/CMakeFiles/libcurl"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/CMakeFiles/libcurl.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/CMakeFiles/libcurl-complete.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-build.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-configure.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-download.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-install.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-mkdir.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-patch.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-test.rule"
+		},
+		{
+			"file" : "/home/wtc/realsense_src/build/libcurl/src/libcurl-stamp/libcurl-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"libcurl"
+		],
+		"name" : "libcurl"
+	}
+}

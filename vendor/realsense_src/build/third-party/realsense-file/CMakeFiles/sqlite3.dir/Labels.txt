@@ -1,0 +1,13 @@
+# Target labels
+ sqlite3
+# Source files and their labels
+/home/wtc/realsense_src/build/third-party/realsense-file/CMakeFiles/sqlite3
+/home/wtc/realsense_src/build/third-party/realsense-file/CMakeFiles/sqlite3.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/CMakeFiles/sqlite3-complete.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-build.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-configure.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-download.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-install.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-mkdir.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-patch.rule
+/home/wtc/realsense_src/build/third-party/realsense-file/sqlite3-prefix/src/sqlite3-stamp/sqlite3-update.rule

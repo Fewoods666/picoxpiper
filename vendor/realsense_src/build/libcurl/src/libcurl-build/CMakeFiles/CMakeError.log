@@ -1,0 +1,1279 @@
+Determining if the function connect exists in the socket failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74348/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_74348.dir/build.make CMakeFiles/cmTC_74348.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_74348.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_74348.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_74348
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74348.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_74348.dir/CheckFunctionExists.c.o -o cmTC_74348  -lsocket 
+/usr/bin/ld: 找不到 -lsocket: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_74348.dir/build.make:99：cmTC_74348] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_74348/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if the OPENSSL_IS_BORINGSSL exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3ff9d/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_3ff9d.dir/build.make CMakeFiles/cmTC_3ff9d.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_3ff9d.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_3ff9d.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: openssl/base.h: 没有那个文件或目录
+    2 | #include <openssl/base.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_3ff9d.dir/build.make:78：CMakeFiles/cmTC_3ff9d.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_3ff9d/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/base.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OPENSSL_IS_BORINGSSL
+  return ((int*)(&OPENSSL_IS_BORINGSSL))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the OPENSSL_IS_AWSLC exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19c60/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_19c60.dir/build.make CMakeFiles/cmTC_19c60.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:2:10: fatal error: openssl/base.h: 没有那个文件或目录
+    2 | #include <openssl/base.h>
+      |          ^~~~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_19c60.dir/build.make:78：CMakeFiles/cmTC_19c60.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_19c60/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <openssl/base.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef OPENSSL_IS_AWSLC
+  return ((int*)(&OPENSSL_IS_AWSLC))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function idn2_lookup_ul exists in the idn2 failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4bdb5/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_4bdb5.dir/build.make CMakeFiles/cmTC_4bdb5.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_4bdb5.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul -o CMakeFiles/cmTC_4bdb5.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_4bdb5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4bdb5.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=idn2_lookup_ul CMakeFiles/cmTC_4bdb5.dir/CheckFunctionExists.c.o -o cmTC_4bdb5  -lidn2 
+/usr/bin/ld: 找不到 -lidn2: 没有那个文件或目录
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_4bdb5.dir/build.make:99：cmTC_4bdb5] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_4bdb5/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+
+Determining if files ;sys/filio.h exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c45aa/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_c45aa.dir/build.make CMakeFiles/cmTC_c45aa.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c45aa.dir/HAVE_SYS_FILIO_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_c45aa.dir/HAVE_SYS_FILIO_H.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_FILIO_H.c:2:10: fatal error: sys/filio.h: 没有那个文件或目录
+    2 | #include <sys/filio.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_c45aa.dir/build.make:78：CMakeFiles/cmTC_c45aa.dir/HAVE_SYS_FILIO_H.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_c45aa/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Source:
+/* */
+#include <sys/filio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/sockio.h exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c74fa/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_c74fa.dir/build.make CMakeFiles/cmTC_c74fa.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_c74fa.dir/HAVE_SYS_SOCKIO_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_c74fa.dir/HAVE_SYS_SOCKIO_H.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_SOCKIO_H.c:9:10: fatal error: sys/sockio.h: 没有那个文件或目录
+    9 | #include <sys/sockio.h>
+      |          ^~~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_c74fa.dir/build.make:78：CMakeFiles/cmTC_c74fa.dir/HAVE_SYS_SOCKIO_H.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_c74fa/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/sockio.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/un.h;sys/utime.h exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2487/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_e2487.dir/build.make CMakeFiles/cmTC_e2487.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_e2487.dir/HAVE_SYS_UTIME_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_e2487.dir/HAVE_SYS_UTIME_H.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_SYS_UTIME_H.c:13:10: fatal error: sys/utime.h: 没有那个文件或目录
+   13 | #include <sys/utime.h>
+      |          ^~~~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_e2487.dir/build.make:78：CMakeFiles/cmTC_e2487.dir/HAVE_SYS_UTIME_H.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_e2487/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/utime.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/un.h;sys/xattr.h;arpa/inet.h;dirent.h;fcntl.h;ifaddrs.h;io.h exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_58471/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_58471.dir/build.make CMakeFiles/cmTC_58471.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_58471.dir/HAVE_IO_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_58471.dir/HAVE_IO_H.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_IO_H.c:18:10: fatal error: io.h: 没有那个文件或目录
+   18 | #include <io.h>
+      |          ^~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_58471.dir/build.make:78：CMakeFiles/cmTC_58471.dir/HAVE_IO_H.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_58471/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <io.h>
+
+
+int main(void){return 0;}
+
+Determining if files sys/wait.h;sys/ioctl.h;sys/param.h;sys/poll.h;sys/resource.h;sys/select.h;sys/socket.h;sys/stat.h;sys/time.h;sys/types.h;sys/un.h;sys/xattr.h;arpa/inet.h;dirent.h;fcntl.h;ifaddrs.h;libgen.h;locale.h;net/if.h;netdb.h;netinet/in.h;netinet/tcp.h;netinet/udp.h;poll.h;pwd.h;stdatomic.h;stdbool.h;strings.h;stropts.h exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0f4e9/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_0f4e9.dir/build.make CMakeFiles/cmTC_0f4e9.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0f4e9.dir/HAVE_STROPTS_H.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_0f4e9.dir/HAVE_STROPTS_H.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckIncludeFiles/HAVE_STROPTS_H.c:30:10: fatal error: stropts.h: 没有那个文件或目录
+   30 | #include <stropts.h>
+      |          ^~~~~~~~~~~
+compilation terminated.
+gmake[4]: *** [CMakeFiles/cmTC_0f4e9.dir/build.make:78：CMakeFiles/cmTC_0f4e9.dir/HAVE_STROPTS_H.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_0f4e9/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Source:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <stropts.h>
+
+
+int main(void){return 0;}
+
+Determining size of __int64 failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_795ab/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_795ab.dir/build.make CMakeFiles/cmTC_795ab.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_795ab.dir/SIZEOF___INT64.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_795ab.dir/SIZEOF___INT64.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:27:22: error: ‘__int64’ undeclared here (not in a function); did you mean ‘__int64_t’?
+   27 | #define SIZE (sizeof(__int64))
+      |                      ^~~~~~~
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:29:12: note: in expansion of macro ‘SIZE’
+   29 |   ('0' + ((SIZE / 10000)%10)),
+      |            ^~~~
+gmake[4]: *** [CMakeFiles/cmTC_795ab.dir/build.make:78：CMakeFiles/cmTC_795ab.dir/SIZEOF___INT64.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_795ab/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CheckTypeSize/SIZEOF___INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__PPC64__)
+# define KEY '_','_','P','P','C','6','4','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#elif defined(__PPC__)
+# define KEY '_','_','P','P','C','_','_'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__aarch64__)
+# define KEY '_','_','a','a','r','c','h','6','4','_','_'
+#elif defined(__ARM_ARCH_7A__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','A','_','_'
+#elif defined(__ARM_ARCH_7S__)
+# define KEY '_','_','A','R','M','_','A','R','C','H','_','7','S','_','_'
+#endif
+
+#define SIZE (sizeof(__int64))
+static char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining if the stricmp exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_0a760/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_0a760.dir/build.make CMakeFiles/cmTC_0a760.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_0a760.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_0a760.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘stricmp’ undeclared (first use in this function); did you mean ‘strncmp’?
+   40 |   return ((int*)(&stricmp))[argc];
+      |                   ^~~~~~~
+      |                   strncmp
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_0a760.dir/build.make:78：CMakeFiles/cmTC_0a760.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_0a760/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef stricmp
+  return ((int*)(&stricmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcmpi exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_38f44/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_38f44.dir/build.make CMakeFiles/cmTC_38f44.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_38f44.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_38f44.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘strcmpi’ undeclared (first use in this function); did you mean ‘strcmp’?
+   40 |   return ((int*)(&strcmpi))[argc];
+      |                   ^~~~~~~
+      |                   strcmp
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_38f44.dir/build.make:78：CMakeFiles/cmTC_38f44.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_38f44/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcmpi
+  return ((int*)(&strcmpi))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the memrchr exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9db42/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_9db42.dir/build.make CMakeFiles/cmTC_9db42.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9db42.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_9db42.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘memrchr’ undeclared (first use in this function); did you mean ‘memchr’?
+   40 |   return ((int*)(&memrchr))[argc];
+      |                   ^~~~~~~
+      |                   memchr
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_9db42.dir/build.make:78：CMakeFiles/cmTC_9db42.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_9db42/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef memrchr
+  return ((int*)(&memrchr))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the arc4random exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_fc285/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_fc285.dir/build.make CMakeFiles/cmTC_fc285.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_fc285.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_fc285.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘arc4random’ undeclared (first use in this function); did you mean ‘srandom’?
+   40 |   return ((int*)(&arc4random))[argc];
+      |                   ^~~~~~~~~~
+      |                   srandom
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_fc285.dir/build.make:78：CMakeFiles/cmTC_fc285.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_fc285/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef arc4random
+  return ((int*)(&arc4random))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the closesocket exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1b51e/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_1b51e.dir/build.make CMakeFiles/cmTC_1b51e.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_1b51e.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_1b51e.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: error: ‘closesocket’ undeclared (first use in this function)
+   39 |   return ((int*)(&closesocket))[argc];
+      |                   ^~~~~~~~~~~
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:35:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   35 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_1b51e.dir/build.make:78：CMakeFiles/cmTC_1b51e.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_1b51e/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef closesocket
+  return ((int*)(&closesocket))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getpass_r exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_41618/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_41618.dir/build.make CMakeFiles/cmTC_41618.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_41618.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_41618.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: error: ‘getpass_r’ undeclared (first use in this function); did you mean ‘getpass’?
+   39 |   return ((int*)(&getpass_r))[argc];
+      |                   ^~~~~~~~~
+      |                   getpass
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:35:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   35 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_41618.dir/build.make:78：CMakeFiles/cmTC_41618.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_41618/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getpass_r
+  return ((int*)(&getpass_r))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the _fseeki64 exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_56325/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_56325.dir/build.make CMakeFiles/cmTC_56325.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_56325.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_56325.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: error: ‘_fseeki64’ undeclared (first use in this function)
+   40 |   return ((int*)(&_fseeki64))[argc];
+      |                   ^~~~~~~~~
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:40:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:36:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   36 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_56325.dir/build.make:78：CMakeFiles/cmTC_56325.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_56325/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef _fseeki64
+  return ((int*)(&_fseeki64))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setmode exist failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6c183/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_6c183.dir/build.make CMakeFiles/cmTC_6c183.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_6c183.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable  -o CMakeFiles/cmTC_6c183.dir/CheckSymbolExists.c.o -c /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c: In function ‘main’:
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: error: ‘setmode’ undeclared (first use in this function)
+   39 |   return ((int*)(&setmode))[argc];
+      |                   ^~~~~~~
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:39:19: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:35:14: warning: parameter ‘argc’ set but not used [-Wunused-but-set-parameter]
+   35 | int main(int argc, char** argv)
+      |          ~~~~^~~~
+gmake[4]: *** [CMakeFiles/cmTC_6c183.dir/build.make:78：CMakeFiles/cmTC_6c183.dir/CheckSymbolExists.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_6c183/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+File /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/wait.h>
+#include <sys/ioctl.h>
+#include <sys/param.h>
+#include <sys/poll.h>
+#include <sys/resource.h>
+#include <sys/select.h>
+#include <sys/socket.h>
+#include <sys/stat.h>
+#include <sys/time.h>
+#include <sys/types.h>
+#include <sys/un.h>
+#include <sys/xattr.h>
+#include <arpa/inet.h>
+#include <dirent.h>
+#include <fcntl.h>
+#include <ifaddrs.h>
+#include <libgen.h>
+#include <locale.h>
+#include <net/if.h>
+#include <netdb.h>
+#include <netinet/in.h>
+#include <netinet/tcp.h>
+#include <netinet/udp.h>
+#include <poll.h>
+#include <pwd.h>
+#include <stdatomic.h>
+#include <stdbool.h>
+#include <strings.h>
+#include <termio.h>
+#include <termios.h>
+#include <unistd.h>
+#include <utime.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setmode
+  return ((int*)(&setmode))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the function mach_absolute_time exists failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d62ba/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_d62ba.dir/build.make CMakeFiles/cmTC_d62ba.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_d62ba.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=mach_absolute_time -o CMakeFiles/cmTC_d62ba.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_d62ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d62ba.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DCHECK_FUNCTION_EXISTS=mach_absolute_time CMakeFiles/cmTC_d62ba.dir/CheckFunctionExists.c.o -o cmTC_d62ba 
+/usr/bin/ld: CMakeFiles/cmTC_d62ba.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x14): undefined reference to `mach_absolute_time'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_d62ba.dir/build.make:99：cmTC_d62ba] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_d62ba/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+
+Performing Test HAVE_FSETXATTR_6 failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_09712/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_09712.dir/build.make CMakeFiles/cmTC_09712.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_09712.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_FSETXATTR_6  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_09712.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:356:3: error: too many arguments to function ‘fsetxattr’
+  356 |   fsetxattr(0, 0, 0, 0, 0, 0);
+      |   ^~~~~~~~~
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:353:
+/usr/include/x86_64-linux-gnu/sys/xattr.h:54:12: note: declared here
+   54 | extern int fsetxattr (int __fd, const char *__name, const void *__value,
+      |            ^~~~~~~~~
+gmake[4]: *** [CMakeFiles/cmTC_09712.dir/build.make:78：CMakeFiles/cmTC_09712.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_09712/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_IOCTLSOCKET failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd0b9/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_cd0b9.dir/build.make CMakeFiles/cmTC_cd0b9.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_cd0b9.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_cd0b9.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:177:25: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  177 |   unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                         ^~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:177:25: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:177:45: error: ‘FIONBIO’ undeclared (first use in this function)
+  177 |   unsigned long flags = ioctlsocket(socket, FIONBIO, &flags);
+      |                                             ^~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:177:45: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_cd0b9.dir/build.make:78：CMakeFiles/cmTC_cd0b9.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_cd0b9/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_IOCTLSOCKET_CAMEL failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_59e25/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_59e25.dir/build.make CMakeFiles/cmTC_59e25.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_59e25.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_59e25.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:195:11: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  195 |   if(0 != IoctlSocket(0, 0, 0))
+      |           ^~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:195:11: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+Linking C executable cmTC_59e25
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_59e25.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H CMakeFiles/cmTC_59e25.dir/CurlTests.c.o -o cmTC_59e25 
+/usr/bin/ld: CMakeFiles/cmTC_59e25.dir/CurlTests.c.o: in function `main':
+CurlTests.c:(.text+0x1d): undefined reference to `IoctlSocket'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_59e25.dir/build.make:99：cmTC_59e25] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_59e25/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_IOCTLSOCKET_CAMEL_FIONBIO failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a4121/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_a4121.dir/build.make CMakeFiles/cmTC_a4121.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_a4121.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_CAMEL_FIONBIO  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_a4121.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:214:11: warning: implicit declaration of function ‘IoctlSocket’ [-Wimplicit-function-declaration]
+  214 |   if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |           ^~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:214:11: warning: nested extern declaration of ‘IoctlSocket’ [-Wnested-externs]
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:214:26: error: ‘FIONBIO’ undeclared (first use in this function)
+  214 |   if(0 != IoctlSocket(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:214:26: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_a4121.dir/build.make:78：CMakeFiles/cmTC_a4121.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_a4121/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_IOCTLSOCKET_FIONBIO failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8bf9c/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_8bf9c.dir/build.make CMakeFiles/cmTC_8bf9c.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_8bf9c.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_IOCTLSOCKET_FIONBIO  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_8bf9c.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:232:11: warning: implicit declaration of function ‘ioctlsocket’ [-Wimplicit-function-declaration]
+  232 |   if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |           ^~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:232:11: warning: nested extern declaration of ‘ioctlsocket’ [-Wnested-externs]
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:232:26: error: ‘FIONBIO’ undeclared (first use in this function)
+  232 |   if(0 != ioctlsocket(0, FIONBIO, &flags))
+      |                          ^~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:232:26: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_8bf9c.dir/build.make:78：CMakeFiles/cmTC_8bf9c.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_8bf9c/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_SETSOCKOPT_SO_NONBLOCK failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1574/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_b1574.dir/build.make CMakeFiles/cmTC_b1574.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_b1574.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_SETSOCKOPT_SO_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_b1574.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:314:37: error: ‘SO_NONBLOCK’ undeclared (first use in this function); did you mean ‘SOCK_NONBLOCK’?
+  314 |   if(0 != setsockopt(0, SOL_SOCKET, SO_NONBLOCK, 0, 0))
+      |                                     ^~~~~~~~~~~
+      |                                     SOCK_NONBLOCK
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:314:37: note: each undeclared identifier is reported only once for each function it appears in
+gmake[4]: *** [CMakeFiles/cmTC_b1574.dir/build.make:78：CMakeFiles/cmTC_b1574.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_b1574/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_O_NONBLOCK failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_406ed/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_406ed.dir/build.make CMakeFiles/cmTC_406ed.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_406ed.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_O_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_406ed.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:431: warning: ISO C forbids an empty translation unit [-Wpedantic]
+Linking C executable cmTC_406ed
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_406ed.dir/link.txt --verbose=1
+/usr/bin/cc    -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_O_NONBLOCK  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H CMakeFiles/cmTC_406ed.dir/CurlTests.c.o -o cmTC_406ed 
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[4]: *** [CMakeFiles/cmTC_406ed.dir/build.make:99：cmTC_406ed] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_406ed/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_3 failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18496/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_18496.dir/build.make CMakeFiles/cmTC_18496.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_18496.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_3  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_18496.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:80:23: error: storage size of ‘hdata’ isn’t known
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:92:8: error: too few arguments to function ‘gethostbyname_r’
+   92 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:80:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[4]: *** [CMakeFiles/cmTC_18496.dir/build.make:78：CMakeFiles/cmTC_18496.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_18496/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_5 failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9611d/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_9611d.dir/build.make CMakeFiles/cmTC_9611d.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_9611d.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_5  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_9611d.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:95:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:95:8: error: too few arguments to function ‘gethostbyname_r’
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[4]: *** [CMakeFiles/cmTC_9611d.dir/build.make:78：CMakeFiles/cmTC_9611d.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_9611d/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_3_REENTRANT failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5903d/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_5903d.dir/build.make CMakeFiles/cmTC_5903d.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_5903d.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_3_REENTRANT  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_5903d.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:61: warning: "_REENTRANT" redefined
+   61 | #   define _REENTRANT
+      | 
+<command-line>: note: this is the location of the previous definition
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:80:23: error: storage size of ‘hdata’ isn’t known
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:92:8: error: too few arguments to function ‘gethostbyname_r’
+   92 |   rc = gethostbyname_r(address, &h, &hdata);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:80:23: warning: unused variable ‘hdata’ [-Wunused-variable]
+   80 |   struct hostent_data hdata;
+      |                       ^~~~~
+gmake[4]: *** [CMakeFiles/cmTC_5903d.dir/build.make:78：CMakeFiles/cmTC_5903d.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_5903d/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_GETHOSTBYNAME_R_5_REENTRANT failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_da7dd/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_da7dd.dir/build.make CMakeFiles/cmTC_da7dd.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_da7dd.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GETHOSTBYNAME_R_5_REENTRANT  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_da7dd.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:61: warning: "_REENTRANT" redefined
+   61 | #   define _REENTRANT
+      | 
+<command-line>: note: this is the location of the previous definition
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:73:19: warning: initialization discards ‘const’ qualifier from pointer target type [-Wdiscarded-qualifiers]
+   73 |   char *address = "example.com";
+      |                   ^~~~~~~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:95:51: warning: passing argument 5 of ‘gethostbyname_r’ from incompatible pointer type [-Wincompatible-pointer-types]
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |                                                   ^~~~~~~~~
+      |                                                   |
+      |                                                   int *
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:180:57: note: expected ‘struct hostent ** restrict’ but argument is of type ‘int *’
+  180 |                             struct hostent **__restrict __result,
+      |                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:95:8: error: too few arguments to function ‘gethostbyname_r’
+   95 |   rc = gethostbyname_r(address, &h, buffer, 8192, &h_errnop);
+      |        ^~~~~~~~~~~~~~~
+In file included from /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:70:
+/usr/include/netdb.h:177:12: note: declared here
+  177 | extern int gethostbyname_r (const char *__restrict __name,
+      |            ^~~~~~~~~~~~~~~
+gmake[4]: *** [CMakeFiles/cmTC_da7dd.dir/build.make:78：CMakeFiles/cmTC_da7dd.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_da7dd/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_GLIBC_STRERROR_R failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_69fcc/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_69fcc.dir/build.make CMakeFiles/cmTC_69fcc.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_69fcc.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_GLIBC_STRERROR_R  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_69fcc.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:325:6: warning: no previous prototype for ‘check’ [-Wmissing-prototypes]
+  325 | void check(char c) {}
+      |      ^~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘check’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:325:17: warning: unused parameter ‘c’ [-Wunused-parameter]
+  325 | void check(char c) {}
+      |            ~~~~~^
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:331:51: error: subscripted value is neither array nor pointer nor vector
+  331 |   check(strerror_r(EACCES, buffer, sizeof(buffer))[0]);
+      |                                                   ^
+gmake[4]: *** [CMakeFiles/cmTC_69fcc.dir/build.make:78：CMakeFiles/cmTC_69fcc.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_69fcc/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+
+Performing Test HAVE_BUILTIN_AVAILABLE failed with the following output:
+Change Dir: /home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7a852/fast && gmake[3]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+/usr/bin/gmake  -f CMakeFiles/cmTC_7a852.dir/build.make CMakeFiles/cmTC_7a852.dir/build
+gmake[4]: 进入目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+Building C object CMakeFiles/cmTC_7a852.dir/CurlTests.c.o
+/usr/bin/cc   -pedantic -D_DEFAULT_SOURCE   -ffp-contract=off   -mssse3 -pthread  -W -Wall -pedantic -Wbad-function-cast -Wconversion -Winline -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wno-long-long -Wno-multichar -Wpointer-arith -Wshadow -Wsign-compare -Wundef -Wunused -Wwrite-strings -Waddress -Wattributes -Wcast-align -Wdeclaration-after-statement -Wdiv-by-zero -Wempty-body -Wendif-labels -Wfloat-equal -Wformat-security -Wignored-qualifiers -Wmissing-field-initializers -Wmissing-noreturn -Wno-format-nonliteral -Wno-system-headers -Wold-style-definition -Wredundant-decls -Wsign-conversion -Wno-error=sign-conversion -Wstrict-prototypes -Wtype-limits -Wunreachable-code -Wunused-parameter -Wvla -Wclobbered -Wmissing-parameter-type -Wold-style-declaration -Wstrict-aliasing=3 -Wtrampolines -Wformat=2 -Warray-bounds=2 -ftree-vrp -Wduplicated-cond -Wnull-dereference -fdelete-null-pointer-checks -Wshift-negative-value -Wshift-overflow=2 -Walloc-zero -Wduplicated-branches -Wformat-overflow=2 -Wformat-truncation=2 -Wimplicit-fallthrough -Wrestrict -Warith-conversion -Wdouble-promotion -Wenum-conversion -Wpragmas -Wunused-const-variable -DHAVE_BUILTIN_AVAILABLE  -DHAVE_SYS_WAIT_H -DHAVE_SYS_IOCTL_H -DHAVE_SYS_PARAM_H -DHAVE_SYS_POLL_H -DHAVE_SYS_RESOURCE_H -DHAVE_SYS_SELECT_H -DHAVE_SYS_SOCKET_H -DHAVE_SYS_STAT_H -DHAVE_SYS_TIME_H -DHAVE_SYS_TYPES_H -DHAVE_SYS_UN_H -DHAVE_SYS_XATTR_H -DHAVE_ARPA_INET_H -DHAVE_DIRENT_H -DHAVE_FCNTL_H -DHAVE_IFADDRS_H -DHAVE_LIBGEN_H -DHAVE_LOCALE_H -DHAVE_NET_IF_H -DHAVE_NETDB_H -DHAVE_NETINET_IN_H -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_POLL_H -DHAVE_PWD_H -DHAVE_STDATOMIC_H -DHAVE_STDBOOL_H -DHAVE_STRINGS_H -DHAVE_TERMIO_H -DHAVE_TERMIOS_H -DHAVE_UNISTD_H -DHAVE_UTIME_H -o CMakeFiles/cmTC_7a852.dir/CurlTests.c.o -c /home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c: In function ‘main’:
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:383:6: warning: implicit declaration of function ‘__builtin_available’; did you mean ‘__builtin_scalbl’? [-Wimplicit-function-declaration]
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |      ^~~~~~~~~~~~~~~~~~~
+      |      __builtin_scalbl
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:383:6: warning: nested extern declaration of ‘__builtin_available’ [-Wnested-externs]
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:383:26: error: ‘macOS’ undeclared (first use in this function)
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                          ^~~~~
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:383:26: note: each undeclared identifier is reported only once for each function it appears in
+/home/wtc/realsense_src/build/third-party/libcurl/CMake/CurlTests.c:383:31: error: expected ‘)’ before numeric constant
+  383 |   if(__builtin_available(macOS 10.12, *)) {}
+      |                         ~     ^~~~~~
+      |                               )
+gmake[4]: *** [CMakeFiles/cmTC_7a852.dir/build.make:78：CMakeFiles/cmTC_7a852.dir/CurlTests.c.o] 错误 1
+gmake[4]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+gmake[3]: *** [Makefile:127：cmTC_7a852/fast] 错误 2
+gmake[3]: 离开目录“/home/wtc/realsense_src/build/libcurl/src/libcurl-build/CMakeFiles/CMakeTmp”
+
+

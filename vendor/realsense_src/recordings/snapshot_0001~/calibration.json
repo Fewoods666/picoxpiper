@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "pyrealsense2_version": "2.58.4.10922",
+  "device": {
+    "name": "RealSense D435",
+    "serial_number": "346122072308",
+    "firmware_version": "5.15.1.55",
+    "usb_type_descriptor": "3.2",
+    "physical_port": "/sys/devices/pci0000:80/0000:80:14.0/usb4/4-3/4-3:1.0/video4linux/video4",
+    "product_line": "D400"
+  },
+  "depth_scale_meters": 0.0010000000474974513,
+  "depth_intrinsics": {
+    "width": 640,
+    "height": 480,
+    "fx": 384.1182861328125,
+    "fy": 384.1182861328125,
+    "ppx": 320.1335144042969,
+    "ppy": 245.5394744873047,
+    "distortion_model": "distortion.brown_conrady",
+    "coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "color_intrinsics": {
+    "width": 640,
+    "height": 480,
+    "fx": 607.736328125,
+    "fy": 607.51318359375,
+    "ppx": 321.0539245605469,
+    "ppy": 242.48980712890625,
+    "distortion_model": "distortion.inverse_brown_conrady",
+    "coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "depth_to_color": {
+    "rotation_column_major": [
+      0.99996417760849,
+      -0.0037666300777345896,
+      -0.0075796521268785,
+      0.0037986175157129765,
+      0.9999839067459106,
+      0.004210188053548336,
+      0.00756367202848196,
+      -0.004238829482346773,
+      0.9999623894691467
+    ],
+    "translation_meters": [
+      0.014765256084501743,
+      -6.286301504587755e-05,
+      7.359518349403515e-05
+    ]
+  },
+  "fps": {
+    "depth": 30,
+    "color": 30
+  },
+  "coordinate_convention": "optical: +X right, +Y down, +Z forward; meters",
+  "sensors_at_start": [
+    {
+      "name": "Stereo Module",
+      "options": {
+        "Exposure": 8500.0,
+        "Gain": 16.0,
+        "Enable Auto Exposure": 1.0,
+        "Emitter Enabled": 1.0,
+        "Laser Power": 150.0,
+        "Global Time Enabled": 1.0
+      }
+    },
+    {
+      "name": "RGB Camera",
+      "options": {
+        "Exposure": 166.0,
+        "Gain": 64.0,
+        "Enable Auto Exposure": 1.0,
+        "Global Time Enabled": 1.0
+      }
+    }
+  ],
+  "host_clock_note": "Host timestamps are receive times, not exposure times. Camera timestamp domains are recorded separately.",
+  "timestamps": {
+    "host_unix_ns": 1789533055935982433,
+    "host_monotonic_ns": 8173878457950,
+    "depth_frame_number": 6,
+    "color_frame_number": 34,
+    "depth_timestamp_ms": 1789533054664.7117,
+    "color_timestamp_ms": 1789533055905.704,
+    "depth_timestamp_domain": "timestamp_domain.global_time",
+    "color_timestamp_domain": "timestamp_domain.global_time"
+  },
+  "aligned_depth_intrinsics": {
+    "width": 640,
+    "height": 480,
+    "fx": 607.736328125,
+    "fy": 607.51318359375,
+    "ppx": 321.0539245605469,
+    "ppy": 242.48980712890625,
+    "distortion_model": "distortion.inverse_brown_conrady",
+    "coeffs": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "depth_encoding": "uint16 PNG; meters = pixel * depth_scale_meters; zero = invalid",
+  "pointcloud_frame": "native depth optical frame"
+}

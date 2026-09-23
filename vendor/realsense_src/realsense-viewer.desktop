@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=RealSense Viewer (D435)
+Comment=RGB-D camera preview, recording and point clouds
+Exec=/home/wtc/realsense_src/sdk/bin/realsense-viewer
+Icon=camera-video
+Terminal=false
+Categories=Development;Graphics;
